@@ -33,8 +33,10 @@ group :development do
 end
 
 group :test do
+  gem 'minitest'
   gem 'rspec-rails'
   gem 'database_cleaner'
+  gem 'shoulda-matchers'
 end
 
 group :development, :test do
